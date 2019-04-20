@@ -13,3 +13,9 @@ git rm --cache *insert file name and file extension* <removes a file from the st
 git status <gives an overview all files and their changes ready for commit>
 
 git commit -m "*insert details of current version type being committed*" <commits the files in the staging area to the git repository, creating a new version, with the associated details>
+
+git log <shows all of the current versions that are committed to the git repository>
+
+git diff *insert file name and file extension* <shows any differences between the current committed files and the current saved files in the directory, in which a git add and commit has not been actioned>
+
+git checkout *insert file name and file extension* <reverts the current file saved in the directory back to the latest committed version type in git>
