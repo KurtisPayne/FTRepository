@@ -33,3 +33,5 @@ git branch *insert new branch name* <creates a new branch for "variants" to your
 git branch <lists all the current branches and marks the active branch with *>
 
 git checkout *insert branch name* <changes to the selected branch storyline
+
+git merge *insert branch name* <merges the typed branch into the selected branch (should always merge into the master branch)>
