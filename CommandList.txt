@@ -1,0 +1,15 @@
+cd *insert directory* <changes directory to a new directory>
+
+mkdir *insert new folder name* <creates a new folder directory in the current selected directory>
+
+touch *insert file name and file extension* <creates a new file at the current terminal directory level>
+
+git init <initialises the git repository in the current terminal directory path>
+
+git add *insert file name and file extension* <adds the selected file to the git staging area, preparing it for commit> ... *git add .* <adds all the files in the current directory into the staging area>
+
+git rm --cache *insert file name and file extension* <removes a file from the staging area, making it unprepared for commit>
+
+git status <gives an overview all files and their changes ready for commit>
+
+git commit -m "*insert details of current version type being committed*" <commits the files in the staging area to the git repository, creating a new version, with the associated details>
