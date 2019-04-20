@@ -27,3 +27,9 @@ git push -u origin master <pushes all of the data currently stored in your local
 touch .gitignore <creates a gitignore file in the current directory. This is used for "ignoring" particular files when committing git files in a directory> ... the gitignore file should include the file names that we want to ignore when adding and committing to git (each on a new line) ... within the gitignore file, you can use # to comment out certain lines for clarity. You can also use the * to specify ignoring bulk files (for example *.txt will ignore all .txt files)
 
 git clone *insert URL of git repository to clone* <creates a clone of the git repository stored in the current directory>
+
+git branch *insert new branch name* <creates a new branch for "variants" to your project timeline>
+
+git branch <lists all the current branches and marks the active branch with *>
+
+git checkout *insert branch name* <changes to the selected branch storyline
