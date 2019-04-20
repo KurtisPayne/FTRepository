@@ -19,3 +19,7 @@ git log <shows all of the current versions that are committed to the git reposit
 git diff *insert file name and file extension* <shows any differences between the current committed files and the current saved files in the directory, in which a git add and commit has not been actioned>
 
 git checkout *insert file name and file extension* <reverts the current file saved in the directory back to the latest committed version type in git>
+
+git remote add origin *insert GitHub directory name from website* <creates a new remote (web based) repository for your git local repository>
+
+git push -u origin master <pushes all of the data currently stored in your local git repository to the previously specified remote git repository>
