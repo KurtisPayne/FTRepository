@@ -23,3 +23,5 @@ git checkout *insert file name and file extension* <reverts the current file sav
 git remote add origin *insert GitHub directory name from website* <creates a new remote (web based) repository for your git local repository>
 
 git push -u origin master <pushes all of the data currently stored in your local git repository to the previously specified remote git repository>
+
+touch .gitignore <creates a gitignore file in the current directory. This is used for "ignoring" particular files when committing git files in a directory> ... the gitignore file should include the file names that we want to ignore when adding and committing to git (each on a new line) ... within the gitignore file, you can use # to comment out certain lines for clarity. You can also use the * to specify ignoring bulk files (for example *.txt will ignore all .txt files)
